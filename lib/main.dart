@@ -58,7 +58,7 @@ class _BMICalculatorState extends State<BMICalculator> {
         mainAxisAlignment: MainAxisAlignment.start,
         children: <Widget>[
           Row(
-            mainAxisAlignment: MainAxisAlignment.start,
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               ElevatedButton(
                 onPressed: () {
