@@ -12,7 +12,8 @@ class BMICalculatorApp extends StatefulWidget {
 class _BMICalculatorAppState extends State<BMICalculatorApp> {
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return  MaterialApp(
+      theme: ThemeData.dark(),
       home: BMICalculator(),
     );
   }
